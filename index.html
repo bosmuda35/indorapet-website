@@ -8,7 +8,7 @@
     <title>INDORAPET | Toko Sembako</title>
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="images/logo.png">
 
     <!-- CSS UTAMA -->
     <link rel="stylesheet" href="style.css">
@@ -16,481 +16,240 @@
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
         rel="stylesheet">
 
-    <!-- FONT AWESOME -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- =====================================================
-         NAVBAR
-    ====================================================== -->
-
+    <!-- ================= NAVBAR ================= -->
     <header class="navbar" id="navbar">
-
         <div class="container nav-container">
 
             <a href="#beranda" class="logo">
-
-                <img
-                    src="logo.png"
-                    alt="Logo INDORAPET"
-                    class="logo-img">
+                <img src="images/logo.png" alt="Logo INDORAPET" class="logo-img">
 
                 <span class="logo-text">
                     <strong>INDORAPET</strong>
                     <small>TOKO SEMBAKO</small>
                 </span>
-
             </a>
 
-
             <nav class="nav-menu" id="navMenu">
-
-                <a href="#beranda" class="active">
-                    Beranda
-                </a>
-
-                <a href="#produk">
-                    Produk
-                </a>
-
-                <a href="#tentang">
-                    Tentang
-                </a>
-
-                <a href="#layanan">
-                    Layanan
-                </a>
-
-                <a href="#kontak">
-                    Kontak
-                </a>
-
+                <a href="#beranda" class="active">Beranda</a>
+                <a href="#produk">Produk</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#kontak">Kontak</a>
             </nav>
 
-
             <div class="nav-right">
-
-                <button
-                    class="cart-button"
-                    onclick="openCart()">
-
+                <button class="cart-button" onclick="openCart()">
                     <i class="fa-solid fa-cart-shopping"></i>
-
-                    <span>
-                        Keranjang
-                    </span>
-
-                    <b id="cartCount">
-                        0
-                    </b>
-
+                    <span>Keranjang</span>
+                    <b id="cartCount">0</b>
                 </button>
 
-
-                <button
-                    class="menu-button"
-                    id="menuButton">
-
+                <button class="menu-button" id="menuButton">
                     <i class="fa-solid fa-bars"></i>
-
                 </button>
-
             </div>
 
         </div>
-
     </header>
 
 
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
-
-    <section
-        class="hero"
-        id="beranda">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="beranda">
 
         <div class="hero-decoration hero-decoration-1"></div>
-
         <div class="hero-decoration hero-decoration-2"></div>
 
-
         <div class="container hero-container">
-
-
-            <!-- HERO CONTENT -->
 
             <div class="hero-content">
 
                 <div class="hero-label">
-
                     <i class="fa-solid fa-star"></i>
-
                     Belanja Mudah • Harga Bersahabat
-
                 </div>
-
 
                 <h1>
-
                     Kebutuhan Sehari-hari
-
-                    <span>
-                        Lebih Mudah
-                    </span>
-
+                    <span>Lebih Mudah</span>
                 </h1>
 
-
                 <p>
-
-                    Selamat datang di
-                    <strong>INDORAPET</strong>,
-                    toko sembako pilihan untuk memenuhi
-                    berbagai kebutuhan pokok keluarga
-                    dengan kualitas terbaik dan harga
-                    yang bersahabat.
-
+                    Selamat datang di <strong>INDORAPET</strong>, toko sembako
+                    pilihan untuk memenuhi berbagai kebutuhan pokok keluarga
+                    dengan kualitas terbaik dan harga yang bersahabat.
                 </p>
 
-
                 <div class="hero-buttons">
-
-                    <a
-                        href="#produk"
-                        class="btn btn-primary">
-
+                    <a href="#produk" class="btn btn-primary">
                         Belanja Sekarang
-
                         <i class="fa-solid fa-arrow-right"></i>
-
                     </a>
 
-
-                    <a
-                        href="#tentang"
-                        class="btn btn-outline">
-
+                    <a href="#tentang" class="btn btn-outline">
                         Tentang Kami
-
                     </a>
-
                 </div>
-
 
                 <div class="hero-features">
 
-
                     <div class="hero-feature">
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Produk Berkualitas
-                        </span>
-
+                        <span>Produk Berkualitas</span>
                     </div>
 
-
                     <div class="hero-feature">
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Harga Terjangkau
-                        </span>
-
+                        <span>Harga Terjangkau</span>
                     </div>
 
-
                     <div class="hero-feature">
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Pelayanan Ramah
-                        </span>
-
+                        <span>Pelayanan Ramah</span>
                     </div>
-
 
                 </div>
 
             </div>
 
-
-            <!-- HERO IMAGE -->
 
             <div class="hero-image">
 
                 <div class="image-card">
-
-                    <!-- GAMBAR HERO -->
-                    <img
-                        src="images/hero.jpg"
-                        alt="Produk sembako INDORAPET">
-
-
-                    <!-- BADGE ATAS -->
+                    <img src="images/hero.jpg" alt="Produk sembako INDORAPET">
 
                     <div class="image-badge badge-top">
-
                         <i class="fa-solid fa-medal"></i>
-
                         <div>
-
-                            <strong>
-                                Kualitas Terbaik
-                            </strong>
-
-                            <small>
-                                Produk pilihan
-                            </small>
-
+                            <strong>Kualitas Terbaik</strong>
+                            <small>Produk pilihan</small>
                         </div>
-
                     </div>
-
-
-                    <!-- BADGE BAWAH -->
 
                     <div class="image-badge badge-bottom">
-
                         <i class="fa-solid fa-tag"></i>
-
                         <div>
-
-                            <strong>
-                                Harga Bersahabat
-                            </strong>
-
-                            <small>
-                                Untuk keluarga
-                            </small>
-
+                            <strong>Harga Bersahabat</strong>
+                            <small>Untuk keluarga</small>
                         </div>
-
                     </div>
-
                 </div>
 
             </div>
 
         </div>
-
     </section>
 
 
-    <!-- =====================================================
-         STATS
-    ====================================================== -->
-
+    <!-- ================= STATS ================= -->
     <section class="stats">
-
         <div class="container stats-container">
 
-
             <div class="stat-item">
-
                 <i class="fa-solid fa-box-open"></i>
-
                 <div>
-
-                    <strong>
-                        100+
-                    </strong>
-
-                    <span>
-                        Produk
-                    </span>
-
+                    <strong>100+</strong>
+                    <span>Produk</span>
                 </div>
-
             </div>
 
-
             <div class="stat-item">
-
                 <i class="fa-solid fa-award"></i>
-
                 <div>
-
-                    <strong>
-                        100%
-                    </strong>
-
-                    <span>
-                        Kualitas
-                    </span>
-
+                    <strong>100%</strong>
+                    <span>Kualitas</span>
                 </div>
-
             </div>
 
-
             <div class="stat-item">
-
                 <i class="fa-solid fa-heart"></i>
-
                 <div>
-
-                    <strong>
-                        Ramah
-                    </strong>
-
-                    <span>
-                        Pelayanan
-                    </span>
-
+                    <strong>Ramah</strong>
+                    <span>Pelayanan</span>
                 </div>
-
             </div>
 
-
             <div class="stat-item">
-
                 <i class="fa-solid fa-store"></i>
-
                 <div>
-
-                    <strong>
-                        UMKM
-                    </strong>
-
-                    <span>
-                        Lokal
-                    </span>
-
+                    <strong>UMKM</strong>
+                    <span>Lokal</span>
                 </div>
-
             </div>
 
         </div>
-
     </section>
 
 
-    <!-- =====================================================
-         PRODUK
-    ====================================================== -->
-
-    <section
-        class="products-section section"
-        id="produk">
+    <!-- ================= PRODUK ================= -->
+    <section class="products-section section" id="produk">
 
         <div class="container">
-
 
             <div class="section-heading">
 
                 <div>
-
-                    <span class="section-label">
-                        PRODUK KAMI
-                    </span>
+                    <span class="section-label">PRODUK KAMI</span>
 
                     <h2>
-
                         Kebutuhan Pokok
-
-                        <span>
-                            Untuk Keluarga
-                        </span>
-
+                        <span>Untuk Keluarga</span>
                     </h2>
-
                 </div>
 
-
                 <p>
-
-                    Berbagai kebutuhan sehari-hari
-                    tersedia di INDORAPET dengan
-                    kualitas terjaga dan harga
-                    bersahabat.
-
+                    Berbagai kebutuhan sehari-hari tersedia di INDORAPET
+                    dengan kualitas terjaga dan harga bersahabat.
                 </p>
 
             </div>
 
 
             <!-- FILTER -->
-
             <div class="filter-container">
 
-                <button
-                    class="filter-button active"
-                    data-category="all">
-
+                <button class="filter-button active" data-category="all">
                     Semua
-
                 </button>
 
-
-                <button
-                    class="filter-button"
-                    data-category="sembako">
-
+                <button class="filter-button" data-category="sembako">
                     Sembako
-
                 </button>
 
-
-                <button
-                    class="filter-button"
-                    data-category="minuman">
-
+                <button class="filter-button" data-category="minuman">
                     Minuman
-
                 </button>
 
-
-                <button
-                    class="filter-button"
-                    data-category="makanan">
-
+                <button class="filter-button" data-category="makanan">
                     Makanan
-
                 </button>
 
             </div>
 
 
             <!-- PRODUCT GRID -->
-
             <div class="product-grid">
 
 
-                <!-- =================================================
-                     PRODUK 1 - BERAS
-                ================================================== -->
-
-                <div
-                    class="product-card"
-                    data-category="sembako">
-
+                <!-- PRODUK 1: Beras Premium -->
+                <div class="product-card" data-category="sembako">
 
                     <div class="product-image">
-
-                        <img
-                            src="images/beras.jpg"
-                            alt="Beras Premium">
+                        <img src="images/beras.jpg" alt="Beras Premium">
 
                         <span class="product-tag">
                             Populer
                         </span>
-
                     </div>
-
 
                     <div class="product-info">
 
@@ -498,51 +257,19 @@
                             Sembako
                         </span>
 
-                        <h3>
-                            Beras Premium
-                        </h3>
+                        <h3>Beras Premium</h3>
 
                         <p>
-
-                            Beras pulen dan bersih
-                            berkualitas untuk kebutuhan
-                            keluarga.
-
+                            Beras pulen dan bersih berkualitas untuk kebutuhan keluarga.
                         </p>
 
-
                         <div class="product-variants-wrap">
-
-                            <span class="product-variants-label">
-                                Pilih Ukuran:
-                            </span>
-
-
+                            <span class="product-variants-label">Pilih Ukuran:</span>
                             <div class="product-variants">
-
-                                <button
-                                    type="button"
-                                    class="variant-pill active"
-                                    onclick="selectVariant(this, 'Beras Premium (5 kg)', 74000)">
-
-                                    5 kg
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Beras Premium (25 kg)', 355000)">
-
-                                    25 kg
-
-                                </button>
-
+                                <button type="button" class="variant-pill active" onclick="selectVariant(this, 'Beras Premium (5 kg)', 74000)">5 kg</button>
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Beras Premium (25 kg)', 355000)">25 kg</button>
                             </div>
-
                         </div>
-
 
                         <div class="product-bottom">
 
@@ -550,13 +277,8 @@
                                 Rp 74.000
                             </strong>
 
-
-                            <button
-                                class="add-cart"
-                                onclick="addToCart('Beras Premium (5 kg)', 74000, 'images/beras.jpg')">
-
+                            <button class="add-cart" onclick="addToCart('Beras Premium (5 kg)', 74000, 'images/beras.jpg')">
                                 <i class="fa-solid fa-plus"></i>
-
                             </button>
 
                         </div>
@@ -566,27 +288,16 @@
                 </div>
 
 
-                <!-- =================================================
-                     PRODUK 2 - TELUR
-                ================================================== -->
-
-                <div
-                    class="product-card"
-                    data-category="sembako">
-
+                <!-- PRODUK 2: Telur Ayam -->
+                <div class="product-card" data-category="sembako">
 
                     <div class="product-image">
-
-                        <img
-                            src="telur ayam.png"
-                            alt="Telur Ayam">
+                        <img src="images/telur ayam.jpg" alt="Telur Ayam">
 
                         <span class="product-tag">
                             Populer
                         </span>
-
                     </div>
-
 
                     <div class="product-info">
 
@@ -594,60 +305,20 @@
                             Sembako
                         </span>
 
-                        <h3>
-                            Telur Ayam
-                        </h3>
+                        <h3>Telur Ayam</h3>
 
                         <p>
-
-                            Telur ayam negeri segar pilihan,
-                            kaya nutrisi untuk keluarga.
-
+                            Telur ayam negeri segar pilihan, kaya nutrisi untuk keluarga.
                         </p>
 
-
                         <div class="product-variants-wrap">
-
-                            <span class="product-variants-label">
-                                Pilih Takaran:
-                            </span>
-
-
+                            <span class="product-variants-label">Pilih Takaran:</span>
                             <div class="product-variants">
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Telur Ayam (1/4 kg)', 7000)">
-
-                                    1/4 kg
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Telur Ayam (1/2 kg)', 14000)">
-
-                                    1/2 kg
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill active"
-                                    onclick="selectVariant(this, 'Telur Ayam (1 kg)', 27000)">
-
-                                    1 kg
-
-                                </button>
-
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Telur Ayam (1/4 kg)', 7000)">1/4 kg</button>
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Telur Ayam (1/2 kg)', 14000)">1/2 kg</button>
+                                <button type="button" class="variant-pill active" onclick="selectVariant(this, 'Telur Ayam (1 kg)', 27000)">1 kg</button>
                             </div>
-
                         </div>
-
 
                         <div class="product-bottom">
 
@@ -655,13 +326,8 @@
                                 Rp 27.000
                             </strong>
 
-
-                            <button
-                                class="add-cart"
-                                onclick="addToCart('Telur Ayam (1 kg)', 27000, 'telur ayam.png')">
-
+                            <button class="add-cart" onclick="addToCart('Telur Ayam (1 kg)', 27000, 'images/telur ayam.jpg')">
                                 <i class="fa-solid fa-plus"></i>
-
                             </button>
 
                         </div>
@@ -671,27 +337,16 @@
                 </div>
 
 
-                <!-- =================================================
-                     PRODUK 3 - MINYAK
-                ================================================== -->
-
-                <div
-                    class="product-card"
-                    data-category="sembako">
-
+                <!-- PRODUK 3: Minyak Goreng -->
+                <div class="product-card" data-category="sembako">
 
                     <div class="product-image">
-
-                        <img
-                            src="minyak goreng.png"
-                            alt="Minyak Goreng">
+                        <img src="images/minyak goreng.jpg" alt="Minyak Goreng">
 
                         <span class="product-tag">
                             Pilihan
                         </span>
-
                     </div>
-
 
                     <div class="product-info">
 
@@ -699,60 +354,20 @@
                             Sembako
                         </span>
 
-                        <h3>
-                            Minyak Goreng
-                        </h3>
+                        <h3>Minyak Goreng</h3>
 
                         <p>
-
-                            Minyak goreng bening dan higienis
-                            untuk masakan renyah & lezat.
-
+                            Minyak goreng bening dan higienis untuk masakan renyah & lezat.
                         </p>
 
-
                         <div class="product-variants-wrap">
-
-                            <span class="product-variants-label">
-                                Pilih Ukuran:
-                            </span>
-
-
+                            <span class="product-variants-label">Pilih Ukuran:</span>
                             <div class="product-variants">
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Minyak Goreng (500 ml)', 9500)">
-
-                                    500 ml
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill active"
-                                    onclick="selectVariant(this, 'Minyak Goreng (1 Liter)', 18000)">
-
-                                    1 Liter
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Minyak Goreng (2 Liter)', 35000)">
-
-                                    2 Liter
-
-                                </button>
-
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Minyak Goreng (500 ml)', 9500)">500 ml</button>
+                                <button type="button" class="variant-pill active" onclick="selectVariant(this, 'Minyak Goreng (1 Liter)', 18000)">1 Liter</button>
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Minyak Goreng (2 Liter)', 35000)">2 Liter</button>
                             </div>
-
                         </div>
-
 
                         <div class="product-bottom">
 
@@ -760,13 +375,8 @@
                                 Rp 18.000
                             </strong>
 
-
-                            <button
-                                class="add-cart"
-                                onclick="addToCart('Minyak Goreng (1 Liter)', 18000, 'images/minyak goreng.png')">
-
+                            <button class="add-cart" onclick="addToCart('Minyak Goreng (1 Liter)', 18000, 'images/minyak goreng.jpg')">
                                 <i class="fa-solid fa-plus"></i>
-
                             </button>
 
                         </div>
@@ -776,23 +386,12 @@
                 </div>
 
 
-                <!-- =================================================
-                     PRODUK 4 - GULA
-                ================================================== -->
-
-                <div
-                    class="product-card"
-                    data-category="sembako">
-
+                <!-- PRODUK 4: Gula Pasir -->
+                <div class="product-card" data-category="sembako">
 
                     <div class="product-image">
-
-                        <img
-                            src="images/gula pasir.png"
-                            alt="Gula Pasir">
-
+                        <img src="images/gula pasir.jpg" alt="Gula Pasir">
                     </div>
-
 
                     <div class="product-info">
 
@@ -800,60 +399,20 @@
                             Sembako
                         </span>
 
-                        <h3>
-                            Gula Pasir
-                        </h3>
+                        <h3>Gula Pasir</h3>
 
                         <p>
-
-                            Gula pasir putih murni untuk
-                            pemanis minuman dan olahan dapur.
-
+                            Gula pasir putih murni untuk pemanis minuman dan olahan dapur.
                         </p>
 
-
                         <div class="product-variants-wrap">
-
-                            <span class="product-variants-label">
-                                Pilih Takaran:
-                            </span>
-
-
+                            <span class="product-variants-label">Pilih Takaran:</span>
                             <div class="product-variants">
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Gula Pasir (1/4 kg)', 4500)">
-
-                                    1/4 kg
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Gula Pasir (1/2 kg)', 9000)">
-
-                                    1/2 kg
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill active"
-                                    onclick="selectVariant(this, 'Gula Pasir (1 kg)', 17500)">
-
-                                    1 kg
-
-                                </button>
-
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Gula Pasir (1/4 kg)', 4500)">1/4 kg</button>
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Gula Pasir (1/2 kg)', 9000)">1/2 kg</button>
+                                <button type="button" class="variant-pill active" onclick="selectVariant(this, 'Gula Pasir (1 kg)', 17500)">1 kg</button>
                             </div>
-
                         </div>
-
 
                         <div class="product-bottom">
 
@@ -861,13 +420,8 @@
                                 Rp 17.500
                             </strong>
 
-
-                            <button
-                                class="add-cart"
-                                onclick="addToCart('Gula Pasir (1 kg)', 17500, 'images/gula pasir.png')">
-
+                            <button class="add-cart" onclick="addToCart('Gula Pasir (1 kg)', 17500, 'images/gula pasir.jpg')">
                                 <i class="fa-solid fa-plus"></i>
-
                             </button>
 
                         </div>
@@ -877,23 +431,12 @@
                 </div>
 
 
-                <!-- =================================================
-                     PRODUK 5 - MIE
-                ================================================== -->
-
-                <div
-                    class="product-card"
-                    data-category="makanan">
-
+                <!-- PRODUK 5: Mie Instan -->
+                <div class="product-card" data-category="makanan">
 
                     <div class="product-image">
-
-                        <img
-                            src="images/mie instan.png"
-                            alt="Mie Instan">
-
+                        <img src="images/mie instan.jpg" alt="Mie Instan">
                     </div>
-
 
                     <div class="product-info">
 
@@ -901,50 +444,19 @@
                             Makanan
                         </span>
 
-                        <h3>
-                            Mie Instan
-                        </h3>
+                        <h3>Mie Instan</h3>
 
                         <p>
-
-                            Pilihan santapan praktis,
-                            gurih, dan lezat untuk keluarga.
-
+                            Pilihan santapan praktis, gurih, dan lezat untuk keluarga.
                         </p>
 
-
                         <div class="product-variants-wrap">
-
-                            <span class="product-variants-label">
-                                Pilih Jumlah:
-                            </span>
-
-
+                            <span class="product-variants-label">Pilih Jumlah:</span>
                             <div class="product-variants">
-
-                                <button
-                                    type="button"
-                                    class="variant-pill active"
-                                    onclick="selectVariant(this, 'Mie Instan (1 Bungkus)', 3500)">
-
-                                    1 Bungkus
-
-                                </button>
-
-
-                                <button
-                                    type="button"
-                                    class="variant-pill"
-                                    onclick="selectVariant(this, 'Mie Instan (1 Dus)', 132000)">
-
-                                    1 Dus
-
-                                </button>
-
+                                <button type="button" class="variant-pill active" onclick="selectVariant(this, 'Mie Instan (1 Bungkus)', 3500)">1 Bungkus</button>
+                                <button type="button" class="variant-pill" onclick="selectVariant(this, 'Mie Instan (1 Dus)', 132000)">1 Dus</button>
                             </div>
-
                         </div>
-
 
                         <div class="product-bottom">
 
@@ -952,13 +464,8 @@
                                 Rp 3.500
                             </strong>
 
-
-                            <button
-                                class="add-cart"
-                                onclick="addToCart('Mie Instan (1 Bungkus)', 3500, 'images/mie instan.png')">
-
+                            <button class="add-cart" onclick="addToCart('Mie Instan (1 Bungkus)', 3500, 'images/mie instan.jpg')">
                                 <i class="fa-solid fa-plus"></i>
-
                             </button>
 
                         </div>
@@ -968,23 +475,12 @@
                 </div>
 
 
-                <!-- =================================================
-                     PRODUK 6 - KOPI
-                ================================================== -->
-
-                <div
-                    class="product-card"
-                    data-category="minuman">
-
+                <!-- PRODUK 6: Kopi Rentengan -->
+                <div class="product-card" data-category="minuman">
 
                     <div class="product-image">
-
-                        <img
-                            src="images/kopi.png"
-                            alt="Kopi Rentengan">
-
+                        <img src="images/kopi.jpg" alt="Kopi Rentengan">
                     </div>
-
 
                     <div class="product-info">
 
@@ -992,40 +488,18 @@
                             Minuman
                         </span>
 
-                        <h3>
-                            Kopi Rentengan
-                        </h3>
+                        <h3>Kopi Rentengan</h3>
 
                         <p>
-
-                            Kopi nikmat dan beraroma harum
-                            kemasan 1 renteng (10 sachet).
-
+                            Kopi nikmat dan beraroma harum kemasan 1 renteng (10 sachet).
                         </p>
 
-
                         <div class="product-variants-wrap">
-
-                            <span class="product-variants-label">
-                                Kemasan:
-                            </span>
-
-
+                            <span class="product-variants-label">Kemasan:</span>
                             <div class="product-variants">
-
-                                <button
-                                    type="button"
-                                    class="variant-pill active"
-                                    onclick="selectVariant(this, 'Kopi Rentengan', 17500)">
-
-                                    1 Renteng
-
-                                </button>
-
+                                <button type="button" class="variant-pill active" onclick="selectVariant(this, 'Kopi Rentengan', 17500)">1 Renteng</button>
                             </div>
-
                         </div>
-
 
                         <div class="product-bottom">
 
@@ -1033,13 +507,8 @@
                                 Rp 17.500
                             </strong>
 
-
-                            <button
-                                class="add-cart"
-                                onclick="addToCart('Kopi Rentengan', 17500, 'images/kopi.png')">
-
+                            <button class="add-cart" onclick="addToCart('Kopi Rentengan', 17500, 'images/kopi.jpg')">
                                 <i class="fa-solid fa-plus"></i>
-
                             </button>
 
                         </div>
@@ -1047,7 +516,6 @@
                     </div>
 
                 </div>
-
 
             </div>
 
@@ -1056,38 +524,20 @@
     </section>
 
 
-    <!-- =====================================================
-         ABOUT
-    ====================================================== -->
-
-    <section
-        class="about-section section"
-        id="tentang">
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section section" id="tentang">
 
         <div class="container about-container">
-
 
             <div class="about-image">
 
                 <div class="about-image-main">
-
-                    <img
-                        src="images/beras.jpg"
-                        alt="INDORAPET Toko Sembako">
-
+                    <img src="images/beras.jpg" alt="INDORAPET Toko Sembako">
                 </div>
 
-
                 <div class="experience-card">
-
-                    <strong>
-                        INDORAPET
-                    </strong>
-
-                    <span>
-                        Toko Sembako Pilihan
-                    </span>
-
+                    <strong>INDORAPET</strong>
+                    <span>Toko Sembako Pilihan</span>
                 </div>
 
             </div>
@@ -1099,84 +549,45 @@
                     TENTANG KAMI
                 </span>
 
-
                 <h2>
-
                     Belanja Kebutuhan
-
-                    <span>
-                        Jadi Lebih Mudah
-                    </span>
-
+                    <span>Jadi Lebih Mudah</span>
                 </h2>
 
-
                 <p>
-
-                    <strong>INDORAPET</strong>
-                    hadir sebagai toko sembako
-                    yang menyediakan berbagai
-                    kebutuhan pokok untuk keluarga.
-
+                    <strong>INDORAPET</strong> hadir sebagai toko sembako
+                    yang menyediakan berbagai kebutuhan pokok untuk
+                    keluarga.
                 </p>
 
-
                 <p>
-
-                    Kami berusaha memberikan
-                    produk berkualitas, harga yang
-                    bersahabat, serta pelayanan
-                    yang ramah kepada setiap pelanggan.
-
+                    Kami berusaha memberikan produk berkualitas,
+                    harga yang bersahabat, serta pelayanan yang ramah
+                    kepada setiap pelanggan.
                 </p>
 
 
                 <div class="about-list">
 
-
                     <div>
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Produk berkualitas
-                        </span>
-
+                        <span>Produk berkualitas</span>
                     </div>
 
-
                     <div>
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Harga bersahabat
-                        </span>
-
+                        <span>Harga bersahabat</span>
                     </div>
 
-
                     <div>
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Pelayanan ramah
-                        </span>
-
+                        <span>Pelayanan ramah</span>
                     </div>
 
-
                     <div>
-
                         <i class="fa-solid fa-circle-check"></i>
-
-                        <span>
-                            Mendukung UMKM lokal
-                        </span>
-
+                        <span>Mendukung UMKM lokal</span>
                     </div>
-
 
                 </div>
 
@@ -1187,16 +598,10 @@
     </section>
 
 
-    <!-- =====================================================
-         LAYANAN
-    ====================================================== -->
-
-    <section
-        class="services-section section"
-        id="layanan">
+    <!-- ================= LAYANAN ================= -->
+    <section class="services-section section" id="layanan">
 
         <div class="container">
-
 
             <div class="section-heading centered">
 
@@ -1206,26 +611,16 @@
                         LAYANAN KAMI
                     </span>
 
-
                     <h2>
-
                         Kenyamanan Untuk
-
-                        <span>
-                            Pelanggan
-                        </span>
-
+                        <span>Pelanggan</span>
                     </h2>
 
                 </div>
 
-
                 <p>
-
-                    Kami memberikan kemudahan dan
-                    kenyamanan dalam memenuhi
-                    kebutuhan sehari-hari.
-
+                    Kami memberikan kemudahan dan kenyamanan
+                    dalam memenuhi kebutuhan sehari-hari.
                 </p>
 
             </div>
@@ -1233,24 +628,17 @@
 
             <div class="service-grid">
 
-
                 <div class="service-card">
 
                     <div class="service-icon">
-
                         <i class="fa-solid fa-basket-shopping"></i>
-
                     </div>
 
-                    <h3>
-                        Produk Lengkap
-                    </h3>
+                    <h3>Produk Lengkap</h3>
 
                     <p>
-
-                        Berbagai kebutuhan pokok
-                        tersedia untuk keluarga Anda.
-
+                        Berbagai kebutuhan pokok tersedia
+                        untuk keluarga Anda.
                     </p>
 
                 </div>
@@ -1259,20 +647,14 @@
                 <div class="service-card">
 
                     <div class="service-icon">
-
                         <i class="fa-solid fa-tags"></i>
-
                     </div>
 
-                    <h3>
-                        Harga Bersahabat
-                    </h3>
+                    <h3>Harga Bersahabat</h3>
 
                     <p>
-
                         Harga terjangkau untuk membantu
                         memenuhi kebutuhan sehari-hari.
-
                     </p>
 
                 </div>
@@ -1281,20 +663,14 @@
                 <div class="service-card">
 
                     <div class="service-icon">
-
                         <i class="fa-solid fa-hand-holding-heart"></i>
-
                     </div>
 
-                    <h3>
-                        Pelayanan Ramah
-                    </h3>
+                    <h3>Pelayanan Ramah</h3>
 
                     <p>
-
                         Kami siap memberikan pelayanan
                         terbaik kepada pelanggan.
-
                     </p>
 
                 </div>
@@ -1303,24 +679,17 @@
                 <div class="service-card">
 
                     <div class="service-icon">
-
                         <i class="fa-solid fa-shield-heart"></i>
-
                     </div>
 
-                    <h3>
-                        Kualitas Terjaga
-                    </h3>
+                    <h3>Kualitas Terjaga</h3>
 
                     <p>
-
                         Kami menjaga kualitas produk
                         yang tersedia di toko.
-
                     </p>
 
                 </div>
-
 
             </div>
 
@@ -1329,14 +698,10 @@
     </section>
 
 
-    <!-- =====================================================
-         CTA
-    ====================================================== -->
-
+    <!-- ================= CTA ================= -->
     <section class="cta-section">
 
         <div class="container cta-container">
-
 
             <div>
 
@@ -1349,22 +714,15 @@
                 </h2>
 
                 <p>
-
-                    Hubungi INDORAPET dan dapatkan
-                    produk kebutuhan keluarga dengan mudah.
-
+                    Hubungi INDORAPET dan dapatkan produk
+                    kebutuhan keluarga dengan mudah.
                 </p>
 
             </div>
 
-
-            <a
-                href="https://wa.me/6283894350017"
-                target="_blank"
-                class="btn btn-light">
+            <a href="https://wa.me/6283894350017" target="_blank" class="btn btn-light">
 
                 <i class="fa-brands fa-whatsapp"></i>
-
                 Hubungi WhatsApp
 
             </a>
@@ -1374,16 +732,10 @@
     </section>
 
 
-    <!-- =====================================================
-         KONTAK
-    ====================================================== -->
-
-    <section
-        class="contact-section section"
-        id="kontak">
+    <!-- ================= KONTAK ================= -->
+    <section class="contact-section section" id="kontak">
 
         <div class="container">
-
 
             <div class="section-heading centered">
 
@@ -1393,15 +745,9 @@
                         HUBUNGI KAMI
                     </span>
 
-
                     <h2>
-
                         Mari Terhubung
-
-                        <span>
-                            Dengan INDORAPET
-                        </span>
-
+                        <span>Dengan INDORAPET</span>
                     </h2>
 
                 </div>
@@ -1412,28 +758,18 @@
             <div class="contact-grid">
 
 
-                <!-- TELEPON -->
-
                 <div class="contact-card">
 
                     <div class="contact-icon">
-
                         <i class="fa-solid fa-phone"></i>
-
                     </div>
-
 
                     <div>
 
-                        <span>
-                            Telepon / WhatsApp
-                        </span>
-
+                        <span>Telepon / WhatsApp</span>
 
                         <a href="tel:+6283894350017">
-
                             +62 838-9435-0017
-
                         </a>
 
                     </div>
@@ -1441,28 +777,18 @@
                 </div>
 
 
-                <!-- EMAIL -->
-
                 <div class="contact-card">
 
                     <div class="contact-icon">
-
                         <i class="fa-solid fa-envelope"></i>
-
                     </div>
-
 
                     <div>
 
-                        <span>
-                            Email
-                        </span>
-
+                        <span>Email</span>
 
                         <a href="mailto:kokoyudinc@gmail.com">
-
                             kokoyudinc@gmail.com
-
                         </a>
 
                     </div>
@@ -1470,37 +796,26 @@
                 </div>
 
 
-                <!-- ALAMAT -->
-
                 <div class="contact-card">
 
                     <div class="contact-icon">
-
                         <i class="fa-solid fa-location-dot"></i>
-
                     </div>
-
 
                     <div>
 
-                        <span>
-                            Alamat
-                        </span>
-
+                        <span>Alamat</span>
 
                         <p>
-
                             INDORAPET kawasan Kampoeng Baru
                             Kavling B19/B21, Desa Ngempit,
                             Kecamatan Kraton, Kabupaten Pasuruan,
                             Jawa Timur
-
                         </p>
 
                     </div>
 
                 </div>
-
 
             </div>
 
@@ -1509,181 +824,93 @@
     </section>
 
 
-    <!-- =====================================================
-         FOOTER
-    ====================================================== -->
-
+    <!-- ================= FOOTER ================= -->
     <footer class="footer">
 
         <div class="container footer-container">
 
-
-            <!-- FOOTER BRAND -->
-
             <div class="footer-brand">
 
-                <a
-                    href="#beranda"
-                    class="logo footer-logo">
-
-                    <img
-                        src="images/logo.png"
-                        alt="Logo INDORAPET"
-                        class="logo-img">
-
+                <a href="#beranda" class="logo footer-logo">
+                    <img src="images/logo.png" alt="Logo INDORAPET" class="logo-img">
 
                     <span class="logo-text">
-
-                        <strong>
-                            INDORAPET
-                        </strong>
-
-                        <small>
-                            TOKO SEMBAKO
-                        </small>
-
+                        <strong>INDORAPET</strong>
+                        <small>TOKO SEMBAKO</small>
                     </span>
-
                 </a>
 
-
                 <p>
-
-                    Toko sembako pilihan untuk
-                    memenuhi kebutuhan sehari-hari
-                    keluarga.
-
+                    Toko sembako pilihan untuk memenuhi
+                    kebutuhan sehari-hari keluarga.
                 </p>
-
 
                 <div class="socials">
 
-
-                    <a
-                        href="https://wa.me/6283894350017"
-                        target="_blank">
-
+                    <a href="https://wa.me/6283894350017" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
-
                     </a>
 
-
-                    <a
-                        href="mailto:kokoyudinc@gmail.com">
-
+                    <a href="mailto:kokoyudinc@gmail.com">
                         <i class="fa-solid fa-envelope"></i>
-
                     </a>
-
 
                 </div>
 
             </div>
 
 
-            <!-- NAVIGASI -->
-
             <div class="footer-column">
 
-                <h3>
-                    Navigasi
-                </h3>
+                <h3>Navigasi</h3>
 
-
-                <a href="#beranda">
-                    Beranda
-                </a>
-
-                <a href="#produk">
-                    Produk
-                </a>
-
-                <a href="#tentang">
-                    Tentang Kami
-                </a>
-
-                <a href="#layanan">
-                    Layanan
-                </a>
-
-                <a href="#kontak">
-                    Kontak
-                </a>
+                <a href="#beranda">Beranda</a>
+                <a href="#produk">Produk</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#kontak">Kontak</a>
 
             </div>
 
 
-            <!-- INFORMASI -->
-
             <div class="footer-column">
 
-                <h3>
-                    Informasi
-                </h3>
+                <h3>Informasi</h3>
 
-
-                <a href="#produk">
-                    Produk Kami
-                </a>
-
-                <a href="#layanan">
-                    Layanan
-                </a>
-
-                <a href="#tentang">
-                    Tentang INDORAPET
-                </a>
+                <a href="#produk">Produk Kami</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#tentang">Tentang INDORAPET</a>
 
             </div>
 
 
-            <!-- KONTAK -->
-
             <div class="footer-column">
 
-                <h3>
-                    Kontak
-                </h3>
-
+                <h3>Kontak</h3>
 
                 <p>
-
                     <i class="fa-solid fa-phone"></i>
-
                     +62 838-9435-0017
-
                 </p>
 
-
                 <p>
-
                     <i class="fa-solid fa-envelope"></i>
-
                     kokoyudinc@gmail.com
-
                 </p>
 
             </div>
-
 
         </div>
 
-
-        <!-- FOOTER BOTTOM -->
 
         <div class="footer-bottom">
 
             <div class="container">
 
                 <p>
-
-                    ©
-                    <span id="year"></span>
-                    INDORAPET.
+                    © <span id="year"></span> INDORAPET.
                     Semua hak dilindungi.
-
                 </p>
-
 
                 <p>
                     Toko Sembako Pilihan
@@ -1696,66 +923,32 @@
     </footer>
 
 
-    <!-- =====================================================
-         CART OVERLAY
-    ====================================================== -->
+    <!-- ================= CART MODAL ================= -->
+    <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
 
-    <div
-        class="cart-overlay"
-        id="cartOverlay"
-        onclick="closeCart()">
-    </div>
-
-
-    <!-- =====================================================
-         CART SIDEBAR
-    ====================================================== -->
-
-    <div
-        class="cart-sidebar"
-        id="cartSidebar">
-
+    <div class="cart-sidebar" id="cartSidebar">
 
         <div class="cart-header">
 
             <div>
-
-                <span class="section-label">
-                    KERANJANG
-                </span>
-
-                <h2>
-                    Belanja Anda
-                </h2>
-
+                <span class="section-label">KERANJANG</span>
+                <h2>Belanja Anda</h2>
             </div>
 
-
-            <button
-                onclick="closeCart()"
-                class="close-cart">
-
+            <button onclick="closeCart()" class="close-cart">
                 <i class="fa-solid fa-xmark"></i>
-
             </button>
 
         </div>
 
 
-        <div
-            class="cart-items"
-            id="cartItems">
-
+        <div class="cart-items" id="cartItems">
 
             <div class="empty-cart">
 
                 <i class="fa-solid fa-cart-shopping"></i>
 
-
-                <h3>
-                    Keranjang masih kosong
-                </h3>
-
+                <h3>Keranjang masih kosong</h3>
 
                 <p>
                     Yuk pilih produk yang ingin dibeli.
@@ -1763,19 +956,14 @@
 
             </div>
 
-
         </div>
 
 
         <div class="cart-footer">
 
-
             <div class="total-row">
 
-                <span class="total-label">
-                    Total Belanja
-                </span>
-
+                <span class="total-label">Total Belanja</span>
 
                 <strong id="cartTotal">
                     Rp 0
@@ -1783,57 +971,29 @@
 
             </div>
 
-
-            <button
-                class="checkout-button"
-                onclick="checkoutWhatsApp()"
-                aria-label="Pesan Sekarang">
-
+            <button class="checkout-button" onclick="checkoutWhatsApp()" aria-label="Pesan Sekarang">
                 <i class="fa-brands fa-whatsapp checkout-icon"></i>
-
-                <span class="checkout-text">
-                    Pesan Sekarang
-                </span>
-
+                <span class="checkout-text">Pesan Sekarang</span>
                 <i class="fa-solid fa-arrow-right checkout-arrow"></i>
-
             </button>
 
-
             <div class="checkout-note">
-
                 <i class="fa-solid fa-circle-check"></i>
-
-                <span>
-                    Pesanan langsung terhubung
-                    ke WhatsApp Toko
-                </span>
-
+                <span>Pesanan langsung terhubung ke WhatsApp Toko</span>
             </div>
-
 
         </div>
 
     </div>
 
 
-    <!-- =====================================================
-         BACK TO TOP
-    ====================================================== -->
-
-    <button
-        class="back-top"
-        id="backTop">
-
+    <!-- ================= BACK TO TOP ================= -->
+    <button class="back-top" id="backTop">
         <i class="fa-solid fa-arrow-up"></i>
-
     </button>
 
 
-    <!-- =====================================================
-         JAVASCRIPT
-    ====================================================== -->
-
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 
 </body>
